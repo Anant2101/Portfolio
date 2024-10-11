@@ -20,7 +20,6 @@ const Navbar = () => {
                     <li>
                         <Link to='contact' smooth={true} offset={-70} duration={500} className='menu-item'>Contact Me</Link>
                     </li>
-
                 </ul>
 
             </div>
