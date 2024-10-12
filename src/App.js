@@ -7,12 +7,11 @@ import ContactMe from "./Components/ContactMe/ContactMe";
 import Footer from "./Components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+// import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function App() {
   return (
     <BrowserRouter>
-      <SpeedInsights />
       <ScrollToTop />
       <Navbar />
       <div className="container">
